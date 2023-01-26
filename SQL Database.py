@@ -9,8 +9,6 @@ from mysql.connector import Error
 import pandas as pd
 from IPython.display import display
 
-pw = "Mickey4427?"
-db = "school"
 
 def create_server_connection(host_name, user_name, user_password): # Create a new MySQL connection
     connection = None # Closes any previous connections, prevents confusion with multiple open connections
